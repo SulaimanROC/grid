@@ -1,0 +1,43 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 100);
+    grid-template-rows:repeat(15, 40px);
+    width: 800px;
+    margin: auto;
+    gap: 10px;
+    
+}
+
+.box {
+background-color: aqua;
+border: 1px solid black;
+}
+
+
+.div1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-column: 1 / 5;
+    background-color: brown;
+}
+
+.div2 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.div4 {
+    grid-column-start: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-end: 4;
+}
+
+.sidebar {
+    
+}
+
+.footer {
+    grid-column: 1 / 5;
+    background-color: brown;
+}
